@@ -1,0 +1,44 @@
+.assigned-jobs {
+  padding: 1rem;
+  background-color: #fff;
+  margin-top: 1rem;
+}
+
+.assigned-jobs h3 {
+  margin-bottom: 1rem;
+  font-size: 16px;
+  color: #333;
+}
+
+.job-cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  flex: 1 1 200px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.job-card h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0F4C81;
+}
+
+.job-card p {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #555;
+}
+
+.meta {
+  font-size: 12px;
+  color: #888;
+}

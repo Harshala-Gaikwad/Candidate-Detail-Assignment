@@ -1,0 +1,33 @@
+.tabs {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tab-button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-size: 14px;
+  cursor: pointer;
+  color: #555;
+}
+
+.tab-button.active {
+  border-color: #0F4C81;
+  color: #0F4C81;
+  font-weight: bold;
+}
+
+.tab-content {
+  font-size: 14px;
+  color: #333;
+}

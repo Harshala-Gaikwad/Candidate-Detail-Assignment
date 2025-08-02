@@ -1,0 +1,28 @@
+.sidebar {
+  width: 4rem;
+  background-color: #0F4C81;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  top: 0;
+  position: fixed;
+}
+
+.icon-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  // filter: brightness(0) invert(1);
+  /* white icon effect */
+  cursor: pointer;
+}
+
+.icon:hover {
+  opacity: 0.8;
+}

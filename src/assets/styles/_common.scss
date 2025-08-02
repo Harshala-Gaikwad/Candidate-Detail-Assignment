@@ -1,0 +1,65 @@
+// Common reusable styles, variables, and mixins
+
+:root {
+  --primary-color: #007bff;
+  --primary-hover: #0056b3;
+  --success-bg: #e8f5e8;
+  --success-color: #2e7d32;
+  --border-radius: 4px;
+  --font-main: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+body {
+  font-family: var(--font-main);
+  background: #f5f7fa;
+  color: #222;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: var(--border-radius);
+  font-size: 13px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+.btn-outline {
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.btn-outline:hover {
+  background: #f8f9ff;
+}
+
+.status-badge {
+  background: var(--success-bg);
+  color: var(--success-color);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
